@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ashutosh Lal | Portfolio</title>
+
+  <meta
+    name="description"
+    content="AI Systems Engineering, Quantum Computing, Retrieval Systems, HPC Fine-Tuning, and Scientific Simulation."
+  />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      background: #fafafa;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .hero {
+      margin-bottom: 64px;
+    }
+
+    .eyebrow {
+      color: #1d9e75;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.1rem;
+      max-width: 720px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 16px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .primary {
+      background: #1d9e75;
+      color: white;
+    }
+
+    .primary:hover {
+      opacity: 0.92;
+    }
+
+    .secondary {
+      background: #efefef;
+      color: #1a1a1a;
+    }
+
+    .section {
+      margin-top: 72px;
+    }
+
+    .section-title {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      color: #888;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #e8e8e8;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 80px;
+      color: #888;
+      font-size: 0.9rem;
+      border-top: 1px solid #e5e5e5;
+      padding-top: 24px;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .container {
+        padding: 48px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <section class="hero">
+      <div class="eyebrow">ENGINEERING PORTFOLIO</div>
+
+      <h1>Ashutosh Lal</h1>
+
+      <p class="subtitle">
+        AI Systems Engineering · Machine Learning Systems · Quantum Computing
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="./portfolio.pdf" target="_blank">
+          View Portfolio PDF
+        </a>
+
+        <a class="button secondary" href="https://github.com/lalashutosh" target="_blank">
+          GitHub
+        </a>
+
+        <a class="button secondary" href="https://www.linkedin.com/" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">SELECTED PROJECTS</div>
+
+      <div class="grid">
+
+        <div class="card">
+          <img src="./assets/hybridrag.png" alt="Agentic RAG System" />
+
+          <div class="card-content">
+            <h3>Agentic RAG System</h3>
+
+            <p>
+              Hybrid retrieval and multi-agent reasoning system over
+              scientific literature using LangGraph, FAISS, BM25,
+              and deterministic retrieval pipelines.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/finetuning.png" alt="Fine Tuning Pipeline" />
+
+          <div class="card-content">
+            <h3>HPC Fine-Tuning Pipeline</h3>
+
+            <p>
+              Distributed continual fine-tuning system with
+              anti-hallucination curriculum training and HPC deployment.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/qkernel.png" alt="Quantum Kernel Simulation" />
+
+          <div class="card-content">
+            <h3>Quantum Kernel Noise Simulator</h3>
+
+            <p>
+              Pulse-accurate coherent noise simulation framework
+              for NISQ quantum hardware using Qiskit DAG rewriting.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      ashutosh.lal@aalto.fi · Aalto University · Quantum Technology
+    </footer>
+
+  </div>
+</body>
+</html>
