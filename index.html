@@ -250,25 +250,7 @@
     line-height: 1.4;
   }
 
-  .strength-bar-wrap {
-    width: 80px;
-    height: 2px;
-    background: var(--border);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  .strength-bar {
-    height: 100%;
-    background: var(--accent-teal);
-    border-radius: 2px;
-    transform-origin: left;
-    animation: growBar 1.2s ease forwards;
-  }
-
-  @keyframes growBar {
-    from { transform: scaleX(0); }
-    to { transform: scaleX(1); }
-  }
+  
 
   .panel-domains {
     margin-top: 1.5rem;
@@ -803,8 +785,8 @@
           <img src="assets/hybridrag.png" alt="Hybrid BFS RAG Engine architecture diagram">
           <div class="diagram-caption">Hybrid BFS RAG Engine — deterministic retrieval layer</div>
         </div>
-        <div class="assets/project-diagram">
-          <img src="agentstack.png" alt="Agentic Orchestration Stack diagram">
+        <div class="project-diagram">
+          <img src="assets/agentstack.png" alt="Agentic Orchestration Stack diagram">
           <div class="diagram-caption">Agentic Orchestration Stack — state-machine reasoning layer</div>
         </div>
       </div>
@@ -858,7 +840,7 @@
 
       <div class="project-diagrams">
         <div class="project-diagram">
-          <img src="assests/finetuning.png" alt="HPC LLM Fine-Tuning Pipeline diagram">
+          <img src="assets/finetuning.png" alt="HPC LLM Fine-Tuning Pipeline diagram">
           <div class="diagram-caption">5-stage pipeline: corpus ingestion → semantic diversity sampling → synthetic data generation (teacher) → behavioral alignment → incremental fine-tuning (student)</div>
         </div>
       </div>
